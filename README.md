@@ -8,7 +8,8 @@ Excel worksheet, to track the state of Insulin Receptor Up/Down Regulation of a 
   <td>
    <ul><li>  light blue area = TDD, darker blue area = total basal insulin per day. 
    </li><li> dashed Lines: red/blue/green = 3/7/14 day moving avg. 
-   </li><li> solid lines: Light blue = reference TDD, darker blue = reference Basal calculated from that by applying an individuall percentage to the reference TDD. </li>
+   </li><li> solid lines: Light blue = reference TDD, darker blue = reference Basal calculated from that by applying an individuall percentage to the reference TDD. 
+    </li><li>light green background: non-working days</li>
     </ul>
    horizontal scale: time-series with a one-day resolution
 </td></tr></table>
