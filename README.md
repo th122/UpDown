@@ -6,8 +6,12 @@ Excel worksheet, to track the state of Insulin Receptor Up/Down Regulation of a 
  <img  src="img/TDD-and-Basal.jpg">
   </td>
   <td>
-   light blue area = TDD, darker blue area = Basal. Lines: red/blue/green dashed = 3/7/14 day avg. Light blue solid line = reference TDD, darker blue solid line = reference Basal calculated from that by applying an individuall percentage to the reference TDD. That dark blue basal is what I’d use as sanity check against the todal basal of autotunes recommendations.
-  </td></tr></table>
+   <ul><li>  light blue area = TDD, darker blue area = total basal insulin per day. 
+   </li><li> dashed Lines: red/blue/green = 3/7/14 day moving avg. 
+   </li><li> solid lines: Light blue = reference TDD, darker blue = reference Basal calculated from that by applying an individuall percentage to the reference TDD. </li>
+    </ul>
+   horizontal scale: time-series with a one-day resolution
+</td></tr></table>
 ## **ToDo**: explain receptor up/down regulation. 
 For a start: The general lay of your insulin sensitivity depends on the *amount* of insulin the body is “used to”. 
 **Receptor Down Regulation**:  Using more insulin over a consecutive number of days, regardless of the reason (sickness,  medication, less sport, multi-day-feasting, whatever), de-sensitizes your reaction to insulin in general,  i.e. an increased **Insulin Resistance**.
