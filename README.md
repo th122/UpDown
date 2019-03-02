@@ -13,7 +13,8 @@ Excel worksheet, to track the state of Insulin Receptor Up/Down Regulation of a 
     </ul>
    horizontal scale: time-series with a one-day resolution
 </td></tr></table>
-## **ToDo**: explain receptor up/down regulation. 
+
+## ToDo: explain receptor up/down regulation. 
 For a start: The general lay of your insulin sensitivity depends on the *amount* of insulin the body is “used to”. 
 **Receptor Down Regulation**:  Using more insulin over a consecutive number of days, regardless of the reason (sickness,  medication, less sport, multi-day-feasting, whatever), de-sensitizes your reaction to insulin in general,  i.e. an increased **Insulin Resistance**.
 **Receptor Up Regulation**: This can be reversed by using less insulin over a consecutive number of days - more activity, less carbs, etc. 
