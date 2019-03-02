@@ -26,7 +26,7 @@ For a start: The general lay of your insulin sensitivity depends on the *amount*
 The first 14 days are needed to get the weighted average calculation up and running with valid data.
 * In **[Data]17B** you enter the Date of the first day of your series of TDD data (Total daily insulin, meaning *all* insulin injected during that day, basal, bolus (meal bolus *and*  correction bolus).
 * you then enter  the **first 14 days of TDD** into Column **J** to get the weighted average calculations initialized
-* on the Sheet [BR], you need to enter your presonal divisor for your TDD/total BR ratio. The default is set to 2, resulting in the dark blue line delineating a reference basal sum of 50% of the reference TDD. YDMV, and is best determined by basal-rate testing during a time of stable TDDs. (caveat: basal-rate testing usually lowers your TDD on the day of the test. Testing on consecutive days most likely starts a more or less pronounced Up-Regulation, influencing the results of the test. 
+* on the Sheet **[BR]**, you need to enter your individual divisor for your TDD/total BR ratio. The default is set to 2, resulting in the dark blue line delineating a reference basal sum of 50% of the reference TDD. **YDMV**, and is best determined by basal-rate testing during a time of stable TDDs. (caveat: basal-rate testing usually lowers your TDD on the day of the test. Testing on consecutive days most likely starts a more or less pronounced Up-Regulation, influencing the results of the test. 
 
 ### Daily entries:
 Starting **line 31** in the “data” sheet, you enter 
