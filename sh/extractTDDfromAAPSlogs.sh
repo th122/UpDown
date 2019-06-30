@@ -1,4 +1,4 @@
-!#/bin/sh
+#!/bin/sh
 
 # Looking for these lines containing ruffy readout of the Combo history
 # 00:59:55.395 [ReadHistoryCommand] DEBUG [ReadHistoryCommand.execute():125]: Wed Jan 30 00:00:00 GMT+01:00 2019: Tdd{timestamp=1548802800000(Wed Jan 30 00:00:00 GMT+01:00 2019), total=38.7}
@@ -11,11 +11,13 @@ today=`/bin/date '+%Y-%m-%d'`
 # Assuming CEST - insert your local timezone, if this differs!
 yesterday=`TZ=CET+24 /bin/date '+%Y-%m-%d'`
 
-#for i in 2019-02/*
+# regexp matching all AAPS logfiles to scan
 logfiles="20*/*"
-# logfiles="2019-03/*"
 tddtmp="/tmp/tdd-$$.txt"
+# location of the scripts
 lib="/home/theuser/sh"
+# flags needed for gnu grep. YMMV
+grep="/usr/bin/grep --colour=never"
 
 # comb all lines containing TDD information from all logfiles,
 # collect into one single file for removal of duplicates.
@@ -25,7 +27,7 @@ lib="/home/theuser/sh"
 for i in ${logfiles}
 do
   echo " --> gathering $i"
-  grep "Tdd{timestamp" $i | sed -e "s/^.*timestamp=//" >> ${tddtmp}
+  ${grep} "Tdd{timestamp" $i | sed -e "s/^.*timestamp=//" >> ${tddtmp}
 done
 
 echo "found " `wc -l $tddtmp` " lines containing TDD information"
